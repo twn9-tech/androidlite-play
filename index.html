@@ -3,8 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1725">
   <title>AndroidLite Play — Emulator Android Ringan</title>
   <meta name="description" content="Unduh AndroidLite Play, emulator Android ringan untuk Windows dengan Google Play Store.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png" type="image/png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +17,7 @@
       <div class="eyebrow">ANDROID EMULATOR · WINDOWS</div>
       <h1>Android yang ringan.<br><span>Play Store tetap ada.</span></h1>
       <p class="lead">AndroidLite Play adalah emulator Android mandiri untuk PC Windows dengan konfigurasi sederhana, cocok untuk RAM 8 GB. HP fisik tidak perlu tersambung.</p>
-      <div class="actions"><a class="button primary" href="AndroidLite-Play-Windows-2026-11-23.zip" download>Unduh emulator <span>↓</span></a><a class="button secondary" href="#spesifikasi">Lihat spesifikasi</a></div>
+      <div class="actions"><a class="button primary" href="AndroidLite-Play-Windows-2026-11-23.zip" download>Unduh emulator <span>↓</span></a><button id="installApp" class="button secondary install-button" hidden>Install app</button><a class="button secondary" href="#spesifikasi">Lihat spesifikasi</a></div>
       <p class="micro">ZIP · Windows 10/11 64-bit · Google Play Store</p>
     </section>
     <section class="wrap preview-shot">
@@ -34,5 +37,6 @@
     <section class="wrap note"><b>Sebelum menginstal</b><span>Pastikan virtualisasi Intel VT-x atau AMD-V/SVM aktif di BIOS. Sediakan koneksi internet dan ruang kosong beberapa GB.</span></section>
   </main>
   <footer class="wrap footer"><span>AndroidLite Play</span><span>Proyek emulator ringan untuk Windows</span></footer>
+  <script src="app.js"></script>
 </body>
 </html>
